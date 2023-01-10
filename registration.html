@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script src="https://kit.fontawesome.com/fb4fb8c853.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <br><br><br>
+    <i class="fa-regular fa-address-card fa-3x" style="margin-left: 400px;"><strong style="color: rgb(182, 216, 89); padding-left: 5px;">
+        student Registration</strong></i>
+    <br><br><hr><br><br><br>
+    <table border="1" align="center" style="width: 500px; height: 600px;">
+    <tr>
+        <td><label for="DOB" style="padding-left: 50px;">DOB</label></td>
+        <td><input type="date" id="DOB" style="margin-left: 65px;"></td>
+    </tr>
+    <tr>
+        <td><label for="Gmail" style="padding-left: 50px;">Gmail</label></td>
+        <td><input type="email" id="Gmail" style="margin-left: 65px;"></td>
+    </tr>
+        <tr>
+            <td><label for="Phno" style="padding-left: 50px;">Phone Number</label></td>
+            <td><input type="text" id="Phno" style="margin-left: 65px;"></td>
+        </tr>
+        <tr>
+            <td><label for="Exp" style="padding-left: 50px;">Experience</label></td>
+            <td><input type="number" id="Exp" style="margin-left: 65px;"></td>
+        </tr>
+        <tr>
+            <td><label for="Gender" style="padding-left: 50px;">Gender</label></td>
+            <td>
+                <input type="radio" id="Gender" name="Gender" style="margin-left: 65px;"><label>Male</label>
+                <input type="radio" id="Gender" name="Gender" style="margin-left: 65px;"><label>Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Address" style="padding-left: 50px;">Address</label></td>
+            <td><textarea name="Address" id="Address" cols="40" rows="5" style="margin-left:3px;"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="Place" style="padding-left: 50px;">Place</label></td>
+            <td><select id="place">
+                <option>Kochi</option>
+                <option>Bangalore</option>
+                <option>Chennai</option>
+                <option>Hyderabad</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="Course" style="padding-left: 50px;">Select Course</label></td>
+            <td><input type="checkbox" id="Course" name="python"><label for="python">Python</label>
+                <input type="checkbox" id="Course" name="Java"><label for="Java">Java</label></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" class="btn btn-success" style="width: 100px;height: 50px ;font-size: large; margin-left: 195px;">Register</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
